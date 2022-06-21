@@ -15,11 +15,10 @@ main{
     align-content: center;
     height: 100vh;
     flex-direction: row;
-    flex-wrap: wrap;
 }
-div{
+/* div{
     width: 33.33333%;
-}
+} */
 .sedans{
     padding: 3% 5%;
     background-color: hsl(31, 77%, 52%);
@@ -62,7 +61,8 @@ input{
 #suvs{
     color: hsl(184, 100%, 22%);
     background-color: hsl(0, 0%, 95%);
-}#luxury{
+}
+#luxury{
     color: hsl(179, 100%, 13%);
     background-color: hsl(0, 0%, 95%);
 }
@@ -83,6 +83,7 @@ input{
 }
 #grid{
     flex-direction: column;
+    flex-wrap: wrap;
     color: hsl(0, 0%, 95%);
     background-color: hsl(246, 91%, 46%);
     padding: 20px 100px;
@@ -93,4 +94,23 @@ input{
 }
 .grid{
     margin: -200px 37%;
+}
+
+@media screen and (max-width: 650px){
+    main {
+        display:flex;
+        flex-direction: column;
+    }
+    /* div{
+        width: 100%;
+    } */
+}
+
+@media screen and (min-width: 1440px){
+    main {
+        flex-direction: row;
+    }
+    /* div{
+        width: 100%;
+    } */
 }
