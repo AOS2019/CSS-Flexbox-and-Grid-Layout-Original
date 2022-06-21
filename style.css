@@ -69,14 +69,17 @@ input{
 #sedans:hover{
     color: hsl(0, 0%, 95%);
     background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
 }
 #suvs:hover{
     color: hsl(0, 0%, 95%);
     background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
 }
 #luxury:hover{
     color: hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
 }
 #grid{
     flex-direction: column;
